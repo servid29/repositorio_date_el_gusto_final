@@ -1,0 +1,24 @@
+.cabecera {
+    .logo-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .logo {
+            width: 170px;
+        }
+    }
+    nav {
+        ul {
+            text-align: center;
+            list-style: none;
+            li {
+                margin: 15px 0 ;
+                .link{
+                    text-decoration: none;
+                    color:#fff;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,557 @@
+/*Comienzo de pagina 1-INDEX*/
+
+@media (min-width:320px){
+    .contenedor-1{
+        width: 767px;
+        display: flex;
+        flex-direction: row;
+    }
+    .cabecera{
+        width: 767px;
+    }
+    .logo-1{
+        display: flex;
+        justify-content: center;
+    }
+    .nav ul{
+        width: 100%;
+        text-align: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .banner{
+        background-image: url(../image/hamburcomun.jpg);
+        width: 767px;
+        height: 480px;
+        background-size: 767px;
+        .banner__textos{
+            height: 446px;
+            text-align: inherit;
+            h1{
+                font-size: 35px;
+                margin: 35px 0 0 10px;
+            }
+            p{
+                margin: 40px 0 20px 10px;
+                font-size: 21px;
+            }
+            .hover{
+                font-size: 35px;
+                margin: 92px;
+            }
+        }
+        .iconos a{
+            justify-content: center;
+            .ico-2{
+                margin: 0 10px;
+            }
+        }
+    }
+}
+@media (min-width:768px){
+    .contenedor-1 {
+        width: 1023px;
+    }
+    .cabecera{
+        width: 1023px;
+        .nav ul{
+            width: 1023px;
+            text-align: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        } 
+    }  
+    .banner{
+        background-size: 1023px;
+        width: 1023px;
+        height: 590px;
+        .banner__textos{
+            width: 46%;
+            height: 595px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 17px;
+            h1{
+                font-size: 50px;
+                font-weight: bolder;
+                color: #fff;
+            }
+            p{
+                font-size: 28px;
+                margin: 0;
+                padding-top: 5%;
+                padding-bottom: 4%;
+                color: #fff;
+            }
+            .hover a{
+                background-image: none;
+                -webkit-text-fill-color: #fff;
+                background-color: #f64b3c;
+                padding: 20px 25px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 23px;
+                border-radius: 20px;
+                color: #fff;
+                background-position: cover;
+                &:hover{
+                    background-color:#fff;
+                    color:#f64b3c;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+@media (min-width:1024px){
+    .contenedor-1 {
+        width: 1348px;
+        height: 970px;
+    }
+    .logo-1{
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        width: 170px;
+        height: 170px;
+        border-radius: 15px;
+    }
+    .cabecera{
+        width: 100%;
+        display: flex;  
+        flex-direction: column;  
+        .nav ul {
+            width: 1348px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            list-style: none;
+        }
+    }
+    .link{
+        color: #fff;
+        text-decoration: none;
+        display:flex;
+        padding: 25px 25px;
+        font-size: 19px;
+        border-radius: 90%;
+    }
+    .link:hover{
+        background-color: #f64b3c;
+        color: #fff; 
+    }
+    .banner{
+        width: 1348px;
+        background-size: 1393px;
+        text-align: left;
+        margin-top: none;
+        height: 770px;
+        .banner__textos{
+            width: 50%;
+            height: 775px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 2%;
+            h1{
+                font-size: 70px;
+                font-weight: bolder;
+                color: #fff;
+            }
+            p{
+                font-size: 32px;
+                margin: 15px 20px 5px 0px;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                color: #fff;
+            }
+            .hover a{
+                background-color: #f64b3c;
+                padding: 20px 25px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 30px;
+                border-radius: 20px;
+                color: #fff;
+                background-position: cover;
+                &:hover{
+                    background-color:#fff;
+                    color:#f64b3c;
+                    text-align: center;
+                }
+            }
+        }
+        .iconos a{
+            justify-content: center;
+            .ico-2{
+                margin: 0 10px;
+            }
+        }
+    }
+}
+/*Fin de pagina 1-INDEX*/
+
+/*Comienzo de pagina 2-MENU*/
+
+@media (min-width:320px){
+    .contenedor-2{
+        width: 767px;
+    }
+    .comida-1{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .comida-2{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .comida-3{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .comida-4{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .comida-5{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .comida-6{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .comida-7{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .comida-8{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:768px){
+    .contenedor-2{
+        width: 1023px;
+    }
+    .pag-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    .ima-respon{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+}
+@media (min-width:1024px){
+    .contenedor-2{
+        width: 1226px;
+        .cabecera{
+            width: 1226px;
+            .nav ul{
+                width: 1226px;
+            }
+            .logo{
+                width: 170px;
+                height: 170px;
+                border-radius: 15px;
+            }
+        }
+    }
+    .pag-2{
+        display: flex;
+        flex-direction: row;
+    }
+    .iconos{
+        margin-top: 10px;
+    }
+}
+/*Fin de pagina 2-MENU*/
+
+/*Comienzo de pagina 3-PROMOCIONES*/
+
+@media (min-width:320px){
+    .contenedor-3{
+        width: 767px;
+    }
+    .caja-titulo{
+        width: 767px;
+    }
+    .contenedor-pro{
+        width: 767px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        gap: 10px;
+    }
+    .imag-pro-2{
+        height: 447px;
+    }
+}
+@media (min-width:768px){
+    .caja-titulo{
+        width: 1023px;
+    }
+    .contenedor-pro{
+        width: 1023px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 10px;
+        .promo{
+            .imag-pro-3{
+                height: 447px;
+            }
+        }
+    }
+    
+}
+@media (min-width:1024px){
+    .contenedor-3{
+        width: 1348px;
+    }
+    .caja-titulo{
+        width: 1348px;
+        .titulo-pro{
+            font-size: 20px;
+        }
+    }
+    .contenedor-pro{
+        width: 1348px;
+        .promo{
+            .imag-pro-3{
+                height: 447px;
+            }
+        }
+    }
+}
+/*Fin de pagina 3-PROMOCIONES*/
+
+/*Comienzo de pagina 4-CERVEZAS*/
+
+@media (min-width:320px){
+    .contenedor-4{
+        width: 767px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cabecera nav ul{
+        width: 767px;
+    }
+    .row{
+        width: 767px;
+        height: 100%;
+        flex-direction: column;
+        .ofer{
+            width: 744px;
+        }
+        .carousel-inner{
+            width: 742px;
+        }
+    }
+    
+}
+@media (min-width:768px){
+    .contenedor-4{
+        width: 1023px;
+    }
+    .row{
+        width: 1023px;
+        .ofer{
+            width: 999px;
+        }
+        .carousel-inner{
+            width: 999px;
+        }
+    }
+}
+@media (min-width:1024px){
+    .contenedor-4{
+        width: 1348px;
+    }
+    .cabecera nav ul{
+        width: 1348px;
+    }
+    .row{
+        width: 800px;
+        .ofer{
+            width: 800px;
+        }
+        .carousel-inner{
+            width: 800px;
+        }
+    }
+}
+/*Fin de pagina 4-CERVEZAS*/
+
+
+/*Comienzo de pagina 5-QUIENES SOMOS*/
+
+@media (min-width:320px){
+    .contenedor-5{
+        width: 767px;
+        height: 100%;
+    }
+    .pag-4{
+        width: 767px;
+        iframe{
+            width: 767px;
+        }
+        .tex{
+            display: grid;
+            grid-template-columns: 63% 37%;
+            margin-top: none;
+            .box{
+                width: 440px;
+                height: 410px;
+                margin-left: 15px;
+                margin-bottom: inherit;
+            }
+            .imag-hambur{
+                width: 265px;
+                .imag-abuelo{
+                    height: 410px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:768px){
+    .contenedor-5{
+        width: 1023px;
+    }
+    .pag-4{
+        width: 1023px;
+        iframe{
+            width: 1023px;
+        }
+        .tex{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            margin-top: none;
+            .box{
+                width: 700px;
+                height: 300px;
+                margin-left: 15px;
+                margin-bottom: inherit;
+            }
+            .imag-hambur{
+                width: 265px;
+                height: 300px;
+                margin-left: 20px;
+                .imag-abuelo{
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:1024px){
+    .contenedor-5{
+        width: 1348px;
+    }
+    .pag-4{
+        width: 1348px;
+        iframe{
+            width: 1348px;
+        }
+        .tex{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            .box{
+                width: 930px;
+                height: 225px;
+                margin-left: 15px;
+                margin-bottom: inherit;
+            }
+            .imag-hambur{
+                width: 330px;
+                height: 225px;
+                margin-left: 50px;
+                .imag-abuelo{
+                    height: 225px;
+                }
+            }
+        }
+    }
+}
+/*Fin de pagina 5-QUIENES SOMOS*/
+
+/*Comienzo de pagina 6-CONTACTO*/
+
+@media (min-width:320px){
+    .contenedor-6{
+        width: 767px;
+        height: 100%;
+    }
+    .contac{
+        width: 767px;
+        iframe{
+            width: 767px;
+        }
+        .formu-cont{
+            .consultas{
+                input[type="submit"]{
+                    width: 355px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:768px){
+    .contenedor-6{
+        width: 1023px;
+        height: 100%;
+    }
+    .contac{
+        width: 1023px;
+        iframe{
+            width: 1023px;
+        }
+        .formu-cont{
+            .consultas{
+                input[type="submit"]{
+                width: 355px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:1024px){
+    .contenedor-6{
+        width: 1348px;
+        height: 100%;
+    }
+    .cabecera nav ul{
+        width: 1297px;
+    }
+    .contac{
+        width: 1348px;
+        iframe{
+            width: 1348px;
+        }
+        .formu-cont{
+            .consultas{
+                input[type="submit"]{
+                width: 355px;
+                }
+            }
+        }
+    }
+}
+/*Fin de pagina 6-CONTACTO*/
